@@ -5,9 +5,7 @@ import { getTranslatedCheckpoint } from './translationUtils';
 
 // Get API key from environment or constants
 const GEMINI_API_KEY = Constants.expoConfig?.extra?.geminiApiKey || 
-  process.env.GEMINI_API_KEY || 
-  "AIzaSyDzPZhFKBLpyBNvUyiCimRs3ggVtYnVKDc";
-
+  process.env.GEMINI_API_KEY
 // Initialize the Gemini AI client
 const ai = new GoogleGenAI({
   apiKey: GEMINI_API_KEY,
