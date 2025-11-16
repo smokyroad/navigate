@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Airport Navigator",
+    "slug": "airport-navigator-prototype",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "airportnavigator",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#0A1018"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0A1018"
+      },
+      "package": "com.milkyroad.airportnavigatorprototype",
+      "softwareKeyboardLayoutMode": "resize"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "experiments": {
+      "reactCanary": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4213feb5-2755-4f5c-824e-2e0bb96e7203"
+      }
+    }
+  }
+}
