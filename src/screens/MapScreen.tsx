@@ -9,7 +9,7 @@ import { JourneyProgress } from '../components/JourneyProgress';
 import { TimelineCard } from '../components/TimelineCard';
 import { BoardingTimeIndicator } from '../components/BoardingTimeIndicator';
 import { CheckpointLibrary } from '../components/CheckpointLibrary';
-import { ChatScreen } from '../screens/ChatScreen';
+import { ChatScreen } from './ChatScreen';
 import { useTranslation } from '../hooks/useTranslation';
 import { calculateTotalTime, formatDuration } from '../utils/timelineUtils';
 
